@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Crash Course</title>
+</head>
+<body>
+    <a href="blog.html">Go to blog</a>
+    <hr>
+    <!--Headings-->
+    <h1>Heading One</h1>
+    <h2>Heading Two</h2>
+    <h3>Heading Three</h3>
+    <h4>Heading Four</h4>
+    <h5>Heading Five</h5>
+    <h6>Heading Six</h6>
+
+    <!--Paragraphs-->
+    <p>Lorem ipsum<strong>dolor sit amet consectetur</strong> 
+         adipisicing elit. <em>Molestiae eius mollitia ut iste,
+             </em>Molestiae eius mollitia ut iste, molestias odit 
+        ipsum voluptates omnis dolores aliquid animi saepe enim 
+        ad ab rerum placeat libero, suscipit quasi.
+    </p>
+    <p><!--href:links-->
+        <!--links to load on a new tab-->
+
+        Lorem ipsum,<a href="http://google.com" target="_blank">dolor sit amet </a> adipisicing elit. 
+        Corruphti ad dolore quisquam culpa vel, pariatur eligendi 
+        dignissimos voluptate! Qui necessitatibus corporis velit 
+        maiores dicta similique, obcaecati optio? Rerum, laborum 
+        ducimus.
+    </p>
+
+    <!--Lists-->
+
+    <!--unordered lists-->
+    <ul>
+        <li>list item 1</li>
+        <li>list item 2</li>
+        <li>list item 3</li>
+        <li>list item 4</li>
+        <li>list item 5</li>
+    </ul>
+
+    <!--ordered lists-->
+
+    <ol>
+        <li>list item 1</li>
+        <li>list item 2</li>
+        <li>list item 3</li>
+        <li>list item 4</li>
+        <li>list item 5</li>
+    </ol>
+
+    <!--tables-->
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Age</th>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>Ronie Ninziza</td>
+                <td>ronie@something.com</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>Nabil Nabil</td>
+                <td>nabil@something.com</td>
+                <td>12</td>
+            </tr>
+            <tr>
+                <td>Ninziz Ninzziz</td>
+                <td>ninziz@something.com</td>
+                <td>11</td>
+            </tr>
+
+        </tbody>
+    </table>
+    <br>
+    <hr>
+
+    <!-- Forms -->
+    <!--action: submits the form to a php page-->
+    <!--Method: making a post request to the server to add data to the database-->
+    <form action="process.php" method="POST">
+        <div>
+            <label >First Name</label>
+            <input type="text" name="firstName"
+            placeholder="Enter first name">
+            
+        </div>
+        <br>
+        <div>
+            <label >Last Name</label>
+            <input type="text" name="lastName"
+            placeholder="Enter last name">
+        </div> 
+        <br>
+        <div>
+            <label >Email</label>
+            <input type="email" name="email"
+            placeholder="email@something.whatever">
+        </div> 
+        <br>
+        <div>
+            <label >Message</label>
+            <textarea name="message" ></textarea>
+        </div>
+        <br>
+        <div>
+            <label >Gender</label>
+            <select name="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label >Age</label>
+            <input type="number" name="age" value="30">
+        </div> 
+        <br>
+        <div>
+            <label >Birthday:</label>
+            <input type="date" name="birthday">
+        </div>
+        <br>
+        <input type="submit" name="submit"
+        value="submit">
+    </form>
+    <br>
+
+    <!-- Button -->
+    <button>Click Me</button>
+    <br>
+
+    <!--image-->
+    <a href="image.jpeg">
+     <img src="image.jpeg" alt="My sample image" width="200">
+    </a>
+    
+    <!-- Quotations -->
+    <blockquote cite="http://google.com">
+        Lorem, ipsum dolor sit amet consectetur adipisicing
+         elit. Dolor animi, facilis labore atque quisquam 
+         deserunt. Ratione doloremque voluptatibus nobis a 
+         quis, qui provident laudantium ut explicabo illum 
+         aut omnis officia.
+
+    </blockquote>
+
+    <p> The <abbr title="World Wide Web">WWW</abbr>  is awesome</p>
+
+    <p><cite>HTML crash course</cite>  by Ronie N</p>
+ 
+
+
+
+
+</body>
+
+
+</html>
